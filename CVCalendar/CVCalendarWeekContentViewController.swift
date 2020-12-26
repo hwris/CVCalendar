@@ -486,7 +486,7 @@ extension CVCalendarWeekContentViewController {
         if let presentedWeekView = weekViews[presented],
             let presentedMonthView = monthViews[presented] {
                 self.presentedMonthView = presentedMonthView
-            calendarView.presentedDate = CVDate(date: presentedMonthView.date, calendar: calendar)
+//             calendarView.presentedDate = CVDate(date: presentedMonthView.date, calendar: calendar)
 
                 var presentedDate: CVDate!
                 for dayView in presentedWeekView.dayViews {
